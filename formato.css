@@ -1,7 +1,8 @@
-.navbar{
+.navbar {
     background-color: grey;
 }
-.jumbotron{
+
+.jumbotron {
     background-image: url(pizzeria.jpg);
     border-radius: 0%;
     background-position: center;
@@ -9,35 +10,40 @@
     color: grey;
     text-shadow: 3px 3px 3px black;
     margin-bottom: 0%;
-    
+
 }
-.jumbotron button{
+
+.jumbotron button {
     background-color: grey;
     border: black 2px solid;
 }
-h2{
+
+h2 {
     text-align: center;
     background-color: grey;
     padding: 10px;
     color: white;
     text-shadow: 1px 1px 1px black;
     margin-bottom: 0%;
-    
+
 }
-.nosotros{
+
+.nosotros {
     background-color: grey;
     height: 365px;
-    color: white ;
-    text-align: justify; 
-    border-top: 4px black solid;  
+    color: white;
+    text-align: justify;
+    border-top: 4px black solid;
 }
-.nleft{
+
+.nleft {
     height: 365px;
     background-image: url(pizzero.jpg);
     background-position: center;
     background-size: cover;
 }
-.locales{
+
+.locales {
     height: auto;
     background-color: grey;
     border: 2px solid black;
@@ -45,64 +51,73 @@ h2{
     color: white;
     text-shadow: 2px 2px 2px black
 }
-.fotolocal{
+
+.fotolocal {
     height: 100px;
     width: 100px;
 }
-.item{
+
+.item {
     border: 2px solid black
 }
-footer{
+
+footer {
     height: 40px;
     width: 100%;
     background-color: beige;
     border-radius: 0%;
-    
+
 }
-footer p{
+
+footer p {
     text-align: center;
     color: black;
     text-shadow: 1cm 1cm 1cm white;
 
 }
-form{
+
+form {
     background-color: grey;
 }
-.button{
+
+.button {
     border: 2px solid black;
 }
 
-@media only screen and (min-width:320px) and (max-width: 439px){
-    .nosotros{
+@media only screen and (min-width:320px) and (max-width: 439px) {
+    .nosotros {
         background-color: grey;
-        height: 1200px;
-        color: white ;
-        text-align: justify; 
-        border-top: 4px black solid;  
-} 
+        min-height: 1200px;
+        color: white;
+        text-align: justify;
+        border-top: 4px black solid;
+    }
 }
-@media only screen and (min-width:440px) and (max-width: 767px){
-    .nosotros{
+
+@media only screen and (min-width:440px) and (max-width: 767px) {
+    .nosotros {
         background-color: grey;
-        height: 950px;
-        color: white ;
-        text-align: justify; 
-        border-top: 4px black solid;  
-} 
+        min-height: 950px;
+        color: white;
+        text-align: justify;
+        border-top: 4px black solid;
+    }
 }
-@media only screen and (min-width:768px) and (max-width: 1285px){
-    .nosotros{
+
+@media only screen and (min-width:768px) and (max-width: 1285px) {
+    .nosotros {
         background-color: grey;
-        height: 650px;
-        color: white ;
-        text-align: justify; 
-        border-top: 4px black solid; 
+        min-height: 650px;
+        color: white;
+        text-align: justify;
+        border-top: 4px black solid;
         text-align: center;
-}
-.nleft{
-    height: 500px;
-    background-image: url(pizzero.jpg);
-    background-position: center;
-    background-size: cover;
-}
+    }
+
+    .nleft {
+        min-height: 500px;
+        background-image: url(pizzero.jpg);
+        background-position: center;
+        background-size: cover;
+    }
 }
