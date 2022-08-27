@@ -18,7 +18,7 @@
 </head>
 
 
-<body>
+<body class="bodycontacto">
     <!-- barra navegacion-->
     <nav class="navbar navbar-expand-md navbar-dark">
         <a class="navbar-brand" href="#">Pizzeria Carlos</a>
@@ -26,7 +26,7 @@
             <span class="navbar-toggler-icon"></span>
         </botton>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav navbar1">
+            <ul class="navbar-nav">
                 <li class="navbar-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
@@ -52,30 +52,35 @@
         <button type="button" class="btn btn-info">Hace tu pedido</button>
     </div>
     <!-- jumbotron -->
-    <!--Nosotros-->
-    <h2>Nosotros</h2>
-    <section class="container-fluid nosotros">
-        <div class="row">
-            <div class="nleft col-md-6"></div>
-            <div class="nright col-md-6 col-sm-12 col-xs-12">
-                <p>Corría el año 1954 en la zona sur de la ciudad de Buenos Aires, más precisamente en el barrio de
-                    Barracas, cuando un grupo de cuatro amigos sentados en la mesa de un café, decidían finalmente
-                    concretar su sueño de ser socios. Siempre habían sabido cuál sería el proyecto que los uniría.
-                    Varios años habían pasado reuniéndose en torno a una pizza recién salida de algún que otro horno de
-                    la Buenos Aires de aquel entonces, a charlar sobre la vida, el futbol, y la pizza... siempre la
-                    pizza. En cada uno de estos encuentros iban amasando el anhelo de ser, algún día ellos también,
-                    dueños de su propio lugar, para poder brindar a otros aquello que tanto disfrutaban.
-                    ¡Y un día el deseo de la Pizzería propia se puso en acción! Con la ayuda de sus familias, todo se
-                    fue dando con bastante rapidez. Encontraron el lugar, dieron con un gran maestro pizzero, fueron
-                    apareciendo buenos proveedores… señal de que iban por buen camino.
-                    Pero algo faltaba todavía: el nombre de la Pizzería. Para estos cuatro amigos, la pasión por la
-                    pizza era la más fiel compañera de otra gran pasión compartida: el fútbol. Sin embargo, aunque todos
-                    amaban aquel deporte, cada uno palpitaba por una casaca diferente. Sabían que el local llevaría un
-                    nombre futbolero, pero no se les ocurría cómo conjugar la diversidad de pasiones.</p>
+
+    <!--Formulario-->
+    <form class="formulario1">
+        <div class="mb-3 mt-3">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="text" placeholder="Ingrese su nombre" name="name">
             </div>
-        </div>
-    </section>
-    <!--Nosotros-->
+            <div class="mb-3 mt-3">
+                <label for="lastname" class="form-label">Apellido:</label>
+                <input type="text" class="form-control" id="text" placeholder="Ingrese su Apellido" name="lastname">
+            </div>
+            <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingrese su Email" name="email">
+            </div>
+            <div>
+            <label for="comment">Comentario:</label>
+            <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" id="botonformulario1">Enviar</button>
+    </form>
+
+
+
+
+
+    <!--Formulario-->
+
 
     <!--Locales-->
     <H2>Locales</H2>
